@@ -35,7 +35,7 @@ Users are able to:
 ### Links
 
 - Solution URL: [interactive-rating-component](https://github.com/felixateya/interactive-rating-component)
-- Live Site URL: [interactive-rating-component](https://your-live-site-url.com)
+- Live Site URL: [interactive-rating-component](https://interactive-rating-component-beta-lemon.vercel.app/)
 
 ## My process
 
