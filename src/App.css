@@ -1,0 +1,124 @@
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(216, 12%, 8%);
+}
+
+.rating {
+  width: 350px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: hsl(213, 19%, 18%);
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.rating img {
+  width: 20px;
+  background-color: hsl(215, 10%, 35%);
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.rating h2 {
+  color: hsl(0, 0%, 100%);
+  font-size: 28px;
+}
+
+.rating p {
+  color: hsl(217, 12%, 63%);
+}
+
+.rates {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rate {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: hsl(217, 12%, 63%);
+  background-color: hsl(215, 10%, 35%);
+  transition: 0.3s ease-in-out;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+}
+.rates .active{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: red;
+  color: hsl(0, 0%, 100%);
+  transition: 0.3s ease-in-out;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+}
+.rate:hover {
+  background-color: hsl(39, 100%, 50%);
+  color: hsl(0, 0%, 100%);
+}
+
+.submit {
+  background-color: hsl(39, 100%, 50%);
+  border-radius: 50px;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+  padding: 15px;
+  transition: 0.3s ease-in-out;
+}
+
+.submit:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(39, 100%, 50%);
+}
+
+.thanks {
+  width: 350px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: hsl(213, 19%, 18%);
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.thanks h2{
+  color: hsl(0, 0%, 100%);
+  font-size: 28px;
+}
+.thanks span{
+  color: orange;
+  background-color: hsl(215, 10%, 35%);
+  opacity: 0.6;
+  border-radius: 12px;
+  padding: 4px 6px;
+  font-weight: 700;
+}
+.thanks p{
+  color: hsl(217, 12%, 63%);
+  text-align: center;
+  width: 88%;
+}
+
+
+@media(max-Width: 822px){
+  .rating{
+    width: 85%;
+  }
+  .thanks{
+    width: 85%;
+  }
+}
